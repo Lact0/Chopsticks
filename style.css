@@ -1,0 +1,57 @@
+.wow {
+  width: 100px;
+}
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #000030;
+}
+
+#overlay {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+}
+
+#overlayText {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  font-family: 'Courier New', monospace;
+  font-size: 400%;
+}
+
+#buttons {
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  left: 45.5%;
+}
+
+#button {
+  border: 0px;
+  font-family: 'Courier New', monospace;
+  font-size: 100%;
+  color: #000030;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+}
+
+#button:hover {
+  size: 200%;
+  background-color: #000017;
+  color: white;
+}
+
+#topText {
+  display: none;
+  text-align: center;
+  position: absolute;
+  left: 2%;
+  top: 45%;
+  font-family: 'Courier New', monospace;
+  color: white;
+}

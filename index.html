@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src='setup.js'></script>
+  <script src="script.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Tic Tac Toe</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload='load()'>
+  <div id="overlay">
+    <h1 id='overlayText'>START GAME</h1><br>
+    <div id='buttons'>
+      <button onclick="startGame(0)" id='button'>Go 1st</button>
+      <button onclick="startGame(1)" id='button'>Go 2nd</button>
+    </div>
+  </div>
+  <p id='topText'>THIS IS TOP TEXT</p>
+  <canvas class='canvas' onclick='leftClick()'></canvas>
+</body>
+
+</html>
